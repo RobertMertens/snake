@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgba(19, 19, 19, 1);
+    font-family: "Poppins";
+    color: #fff;
+}
+
+/* Snake game */
+
+#snake_game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#snake_stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 8px 0px;
+}
+
+#snake_stats p1 {
+    padding: 0px 8px;
+    font-size: 24px;
+
+}
+
+#snake_canvas {
+    border: 5px solid white;
+}
